@@ -124,3 +124,10 @@ In particular, this repository does **not** contain any extra technical write-up
 | Minecraft | 0.77 | 0.66 | 0.71 |
 | Atari | 0.83 | 0.48 | 0.66 |
 | DMControl | 0.41 | 0.37 | 0.39 |
+
+---
+
+### Figure 5. Practical FlowMAP implementation
+![Figure 5](FlowMAP_Algorithm.png)
+
+*Caption:* Expanded operational version of Algorithm 1, showing the practical implementation of meta-state construction, endpoint matching, consistency alignment, and matching cost.
