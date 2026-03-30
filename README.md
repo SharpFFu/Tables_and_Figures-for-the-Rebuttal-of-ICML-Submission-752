@@ -41,7 +41,7 @@ In particular, this repository does **not** contain any extra technical write-up
 ---
 
 ### Figure S4. Sensitivity analysis for the temperature parameter $\beta$
-![Figure 4](Sensitivity_experiment_of_belta.png)
+![Figure 4](Sensitivity_experiment_of_beta.png)
 
 *Caption:* Minecraft episodic return under different values of the temperature parameter $\beta$. Performance is strongest around $\beta=1$, while both overly small and overly large values reduce return
 
