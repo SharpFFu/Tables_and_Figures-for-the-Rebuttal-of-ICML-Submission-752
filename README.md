@@ -19,22 +19,22 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ## Supplementary Figures for the Rebuttal
 
-### Figure 1. ProcGen result (2 seeds)
-![Figure 1](ProcGen_result_2seed.png)
+### Figure S1. ProcGen result (2 seeds)
+![Figure S1](ProcGen_result_2seed.png)
 
 *Caption:* ProcGen evaluation with **2 seeds** on 16 tasks at 50 million steps.
 
 ---
 
-### Figure 2. ProcGen result (5 seeds)
-![Figure 2](ProcGen_result_5seed.png)
+### Figure S2. ProcGen result (5 seeds)
+![Figure S2](ProcGen_result_5seed.png)
 
 *Caption:* ProcGen evaluation with **5 seeds** on 16 tasks at 50 million steps.
 
 ---
 
-### Figure 3. Sensitivity analysis for the quantile filtering ratio $\alpha$
-![Figure 3](Sensitivity_experiment_of_alpha.png)
+### Figure S3. Sensitivity analysis for the quantile filtering ratio $\alpha$
+![Figure S3](Sensitivity_experiment_of_alpha.png)
 
 *Caption:* Minecraft episodic return under different values of the quantile filtering ratio $\alpha$. Performance is strongest in the small-to-moderate range, with the best result observed near $\alpha=0.005$.
 
@@ -51,8 +51,7 @@ In particular, this repository does **not** contain any extra technical write-up
 ## Supplementary Tables
 
 ### Table S1. Atari 100k ablation results
-
-*Caption:* Atari 100k ablation results. **HNS** denotes **human-normalized score**, the standard evaluation metric for Atari 100k. It plays the same role as episodic return in the main paper, but is more suitable here because it normalizes performance across different games.
+*Caption:* Atari 100k ablation results. **HNS** denotes **human-normalized score**, the standard aggregate evaluation metric for Atari 100k. We report it here because it is the benchmark’s conventional metric for cross-game comparison.
 
 | Method | Mean HNS | Median HNS | IQM HNS |
 |---|---:|---:|---:|
@@ -68,9 +67,9 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ### Table S2. BSuite ablation results
 
-*Caption:* BSuite ablation results.
+*Caption:* BSuite ablation results. Values are reported as mean episodic return averaged over tasks.
 
-| Method | Bsuite (Task mean)|
+| Method | BSuite Mean Return |
 |---|---:|
 | No Flow (RL only) | 54.2 |
 | RL + Cons only | 55.5 |
@@ -114,7 +113,7 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ---
 
-### Table S6. Benchmark-level dynamic heterogeneity (MDHI)
+### Table S5. Benchmark-level dynamic heterogeneity (MDHI)
 
 *Caption:* Benchmark-level dynamic heterogeneity measured in the same meta-state space used by FlowMAP. $H_{\mathrm{ctx}}$ denotes cross-context heterogeneity, $H_{\mathrm{temp}}$ denotes temporal non-stationarity, and $H(\mathcal{B})$ is their normalized average.
 
@@ -127,7 +126,7 @@ In particular, this repository does **not** contain any extra technical write-up
 
 ---
 
-### Figure 5. Practical FlowMAP implementation
-![Figure 5](FlowMAP_Algorithm.png)
+### Figure S5. Practical FlowMAP implementation
+![Figure S5](FlowMAP_Algorithm.png)
 
 *Caption:* Expanded operational version of Algorithm 1, showing the practical implementation of meta-state construction, endpoint matching, consistency alignment, and matching cost.
