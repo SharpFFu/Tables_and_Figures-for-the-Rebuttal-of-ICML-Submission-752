@@ -93,8 +93,8 @@ In particular, this repository does **not** contain any extra technical write-up
 | Atari | 57 | 32 | 0.9 vs 0.8 | 200M | 217 vs 210 |
 | Atari 100k | 26 | 128 | 0.1 | 200M | 30 |
 | BSuite | 23 | 1024 | 0.1 | 200M | 14 |
-| DMC Vision | 20 | 256 | 0.3 | 200M | 95 vs 93 |
-| DMC Proprio | 20 | 1024 | 0.4 vs 0.3 | 1M | 18 vs 17 |
+| DMC Vision Control| 20 | 256 | 0.3 | 200M | 95 vs 93 |
+| DMC Proprio Control | 20 | 1024 | 0.4 vs 0.3 | 1M | 18 vs 17 |
 ---
 
 ### Table S4. Hardware configuration
@@ -122,7 +122,7 @@ In particular, this repository does **not** contain any extra technical write-up
 | ProcGen | 0.78 | 0.65 | 0.72 |
 | Minecraft | 0.77 | 0.66 | 0.71 |
 | Atari | 0.83 | 0.48 | 0.66 |
-| DMControl | 0.41 | 0.37 | 0.39 |
+| DMLab | 0.41 | 0.37 | 0.39 |
 
 ---
 
